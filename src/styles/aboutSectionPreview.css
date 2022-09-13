@@ -1,18 +1,11 @@
-
-
 .about-preview {
     display: flex;
     gap: 30px;
     font-family: 'Roboto';
     font-weight: 300;
     line-height: 25px;
-    min-width: 1000px;
+    min-width: 760px;
 }
-
-.about-preview-photo {
-    
-}
-
 
 .about-preview-photo img {
     border-radius: 50%;
@@ -34,20 +27,17 @@
     min-height: 25px;
 }
 
+.about-preview-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-preview-right {
+    text-align: right;
+}
+
 .about-preview-address {
-    width: 15%;
-}
-
-.about-preview-email {
-  
-}
-
-.about-preview-website {
-
-}
-
-.about-preview-phone {
-
+    width: 45%;
 }
 
 b {
