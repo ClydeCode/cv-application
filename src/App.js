@@ -2,6 +2,7 @@ import React from "react";
 import Header from './components/Header'
 import AboutSectionPreview from './components/AboutSectionPreview'
 import './styles/app.css'
+import PreviewWindow from "./components/PreviewWindow";
 
 class App extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class App extends React.Component {
       <div className="main">
         <Header />
         <div className="content">
-          <AboutSectionPreview />
+          <PreviewWindow />
         </div>
       </div>
     )
