@@ -4,7 +4,7 @@ import '../styles/section.css';
 export default class Section extends React.Component {
     render() {
         return (
-            <div className='section'>
+            <section className='section'>
                 <div className='section-container'>
                     <div className='section-title-container'>
                         <div className='section-title'><b>COMPUTER SKILLS</b></div>
@@ -14,7 +14,7 @@ export default class Section extends React.Component {
                     Windows XP and Microsoft Office XP Professional
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

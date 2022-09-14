@@ -5,7 +5,7 @@ import '../styles/aboutSectionPreview.css'
 export default class AboutSectionPreview extends React.Component {
     render() {
         return (
-            <div className='about-preview'>
+            <section className='about-preview'>
                 <div className='about-preview-photo'><img src={image} alt='' /></div>
                 <div className='about-preview-otherside'>
                     <div className='about-preview-name'><b>James</b> Watson</div>
@@ -24,7 +24,7 @@ export default class AboutSectionPreview extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
