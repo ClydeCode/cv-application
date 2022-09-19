@@ -45,7 +45,7 @@ table {
 	border-spacing: 0;
 }
 
-.content {
+main {
     display: flex;
     padding: 50px;
 }

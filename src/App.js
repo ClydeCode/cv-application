@@ -6,13 +6,13 @@ import './styles/app.css'
 class App extends React.Component {
   render() {
     return (
-      <div className="main">
+      <React.Fragment>
         <Header />
-        <div className="content">
+        <main>
           <PreviewWindow />
-        </div>
-      </div>
-    )
+        </main>      
+      </React.Fragment>
+      )
   }
 }
 
