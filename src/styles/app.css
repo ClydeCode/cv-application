@@ -46,6 +46,6 @@ table {
 }
 
 main {
-    display: flex;
+    /* display: flex; */
     padding: 50px;
 }
