@@ -1,8 +1,8 @@
 import React from 'react';
 import image from '../assets/photo.jpg'
-import '../styles/aboutSectionPreview.css'
+import '../styles/aboutSection.css'
 
-export default class AboutSectionPreview extends React.Component {
+export default class AboutSection extends React.Component {
     render() {
         return (
             <section className='about-preview'>

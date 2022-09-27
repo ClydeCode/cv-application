@@ -1,6 +1,6 @@
 import React from "react";
 import Header from './components/Header'
-import PreviewWindow from "./components/PreviewWindow";
+import Window from "./components/Window";
 import './styles/app.css'
 
 class App extends React.Component {
@@ -9,7 +9,7 @@ class App extends React.Component {
       <React.Fragment>
         <Header />
         <main>
-          <PreviewWindow />
+          <Window />
         </main>      
       </React.Fragment>
       )

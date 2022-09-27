@@ -1,13 +1,13 @@
 import React from 'react';
-import AboutSectionPreview from './AboutSectionPreview';
+import AboutSection from './AboutSection';
 import Section from './Section'
 import '../styles/window.css';
 
-export default class PreviewWindow extends React.Component {
+export default class Window extends React.Component {
     render() {
         return (
             <div className='window'>
-                <AboutSectionPreview />
+                <AboutSection />
                 <Section />
             </div>
         )
