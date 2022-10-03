@@ -1,0 +1,16 @@
+.title-container {
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.title-header {
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    padding-top: 3px;
+    font-size: .9rem;
+}
