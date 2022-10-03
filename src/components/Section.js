@@ -7,11 +7,10 @@ export default class Section extends React.Component {
             <section className='section'>
                 <div className='section-container'>
                     <div className='section-title-container'>
-                        <div className='section-title'><b>COMPUTER SKILLS</b></div>
+                        <div className='section-title'><b>{this.props.title}</b></div>
                     </div>
                     <div className='section-content'>
-                    Microsoft Word, Excel, Access, PowerPoint, Outlook Express, Microsoft
-                    Windows XP and Microsoft Office XP Professional
+                        {this.props.content}
                     </div>
                 </div>
             </section>

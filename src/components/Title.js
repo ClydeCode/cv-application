@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/sectionTitle.css';
+import '../styles/title.css';
 
 export default class SectionTitle extends React.Component {
     render() {

@@ -30,3 +30,9 @@
     line-height: 20px;
     width: 100%;
 }
+
+.section-content .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
