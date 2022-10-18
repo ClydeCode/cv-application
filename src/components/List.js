@@ -5,7 +5,7 @@ export default class List extends React.Component {
     render() {
         return (
             <ul>
-                <li></li>
+                {this.props.array.map((item) => <li>{item}</li>)}
             </ul>
         )
     }
