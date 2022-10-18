@@ -14,6 +14,11 @@
     object-fit: cover;
 }
 
+.about-preview-photo img:hover {
+    filter: blur(1.5px);
+    transition: .3s;
+}
+
 .about-preview-otherside {
    width: 100%;
 }
