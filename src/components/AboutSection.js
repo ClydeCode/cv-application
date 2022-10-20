@@ -1,13 +1,38 @@
 import React from 'react';
-import image from '../assets/photo.jpg'
-import '../styles/aboutSection.css'
+import image from '../assets/photo.jpg';
+import '../styles/aboutSection.css';
+import Modal from './Modal';
 
 export default class AboutSection extends React.Component {
+    constructor(props) {
+        super(props);
+        this.toggleModal = this.toggleModal.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.state = {
+            photo: image,
+            showModal: false
+        }
+    }
+
+    toggleModal() {
+        this.setState({
+            showModal: !this.state.showModal
+        })
+    }
+
+    handleSubmit(e) {
+        e.preventDefault();
+        this.toggleModal();
+        this.setState({
+            photo: e.target.firstChild.value
+        })
+    }
+
     render() {
         return (
             <section className='about-preview'>
-                <div className='about-preview-photo'>
-                    <img src={image} alt='' />
+                <div className='about-preview-photo' onClick={this.toggleModal}>
+                    <img src={this.state.photo} alt='' />
                     <div className='about-preview-photo-text'>Change Photo</div>
                 </div>
                 <div className='about-preview-otherside'>
@@ -27,6 +52,7 @@ export default class AboutSection extends React.Component {
                         </div>
                     </div>
                 </div>
+                {this.state.showModal && <Modal toggle={this.toggleModal} submit={this.handleSubmit}/>}
             </section>
         )
     }
