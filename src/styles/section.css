@@ -1,6 +1,7 @@
 .section {
     margin: 30px 0px;
     min-width: 765px;
+    position: relative;
 }
 
 .section-container {
@@ -50,4 +51,24 @@
     padding: 15px 10px;
     cursor: pointer;
     outline: 2px solid rgb(230, 114, 7);
+}
+
+.add-item {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 3px 0px;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    opacity: 0;
+}
+
+.add-item:hover {
+    position: relative;
+    background-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+    padding: 10px;
+    opacity: 1;
+    margin: 10px 0px;
 }

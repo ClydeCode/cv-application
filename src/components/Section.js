@@ -17,6 +17,7 @@ export default class Section extends React.Component {
                             Windows XP and Microsoft Office XP Professional
                     </div>
                 </div>
+                <div className='add-item'>Add Item</div>
             </section>
         )
     }
