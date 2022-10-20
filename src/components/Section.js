@@ -7,11 +7,14 @@ export default class Section extends React.Component {
             <section className='section'>
                 <div className='section-container'>
                     <div className='section-title-container'>
-                        <div className='section-title' contentEditable='true'>COMPUTER SKILLS</div>
+                        <div className='section-title'>COMPUTER SKILLS</div>
                     </div>
-                    <div className='section-content' contentEditable='true'>
-                        Microsoft Word, Excel, Access, PowerPoint, Outlook Express, Microsoft
-                        Windows XP and Microsoft Office XP Professional
+                    <div className='section-content' 
+                         contentEditable='true' 
+                         onClick={this.toggleEdit}
+                         spellCheck='false'>   
+                            Microsoft Word, Excel, Access, PowerPoint, Outlook Express, Microsoft
+                            Windows XP and Microsoft Office XP Professional
                     </div>
                 </div>
             </section>
