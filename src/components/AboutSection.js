@@ -6,7 +6,10 @@ export default class AboutSection extends React.Component {
     render() {
         return (
             <section className='about-preview'>
-                <div className='about-preview-photo'><img src={image} alt='' /></div>
+                <div className='about-preview-photo'>
+                    <img src={image} alt='' />
+                    <div className='about-preview-photo-text'>Change Photo</div>
+                </div>
                 <div className='about-preview-otherside'>
                     <div className='about-preview-name'><b>James</b> Watson</div>
                     <div className='about-preview-container'>
