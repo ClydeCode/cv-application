@@ -16,12 +16,14 @@
 }
 
 .section-title {
-    width: 15%;
+    width: 80%;
     font-family: 'Inter';
     font-weight: bold;
     line-height: 22px;
     letter-spacing: 0.5px;
     font-size: .94rem;
+    color: rgb(230, 114, 7);
+    text-transform: uppercase;
 }
 
 .section-content {
